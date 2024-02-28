@@ -3,15 +3,25 @@ A learning project practicing pipeline building within Azure Cloud. The tools us
 
 # Why
 The NPI registry is a great data source for healthcare providers nation wide. Unfortunately the data is bulky and may be difficult to leverage. The API can only return 1200 records as of this writing. I have a long term goal of making this data more widely available.
-
-Beyond making the data more widely available, I am motivated to 'clean' this data source. Address information within the data can be poor. Running the address information through an address service to create a corrected address would go a long way to track providers over time, and leverage the location data provided in the data set. 
+In addition to making the data more widely available, I am motivated to 'clean' this data source. Address information within the data can be poor. Running the address information through an address service to create a corrected address would go a long way to track providers over time, and leverage the location data provided in the data set. 
 
 # Architecture
 
 
+
+# What I Learned
+* Setting up various Azure services not limited to blob storage, SQL databases, and options for how to host Airflow (as an application vs 'locally' on a virtual machine).
+* [Docker](https://docs.docker.com/get-started/). I used docker to [run Airflow with the Local executor](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
+* Bash & how to practice with WSL locally before moving to cloud.
+* BCP & bulk upload into SQL Server.
+
+# What's Next?
+I would really like the information to be available with more filters so you don't have to download the 9gb .csv file. Being able to pull the information on a state level would be great. Learning how to host the information and develop API's would be a great challenge. 
+
+
 # Learning Resources
 * Many many thanks to [Using the Bulk-Load Tools in SQL Server blog](https://www.sommarskog.se/bulkload.html)  for helping with BCP. BCP ended up being one of the more tedious and time consuming challenges of the project.
-  
+* One of the many ways to setup Airflow using Docker on WSL (Install and Run Apache Airflow Using Docker in Windows 11)[https://www.youtube.com/watch?v=Sva8rDtlWi4&list=PLllr2ahe8P0qbHJteyB2vJBgKfXkpBSb_&index=2&ab_channel=Philodiscite]
 
 # Data Sources
 https://npiregistry.cms.hhs.gov/search
