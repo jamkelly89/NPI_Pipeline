@@ -10,7 +10,7 @@ Beyond making the data more widely available, I am motivated to 'clean' this dat
 
 
 # Learning Resources
-* Many many thanks to [Using the Bulk-Load Tools in SQL Server](https://www.sommarskog.se/bulkload.html) helping with BCP. BCP ended up being one of the more tedious and time consuming challenges of the project.
+* Many many thanks to [Using the Bulk-Load Tools in SQL Server blog](https://www.sommarskog.se/bulkload.html)  for helping with BCP. BCP ended up being one of the more tedious and time consuming challenges of the project.
   
 
 # Data Sources
