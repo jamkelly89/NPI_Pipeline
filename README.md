@@ -2,7 +2,7 @@
 A learning project practicing pipeline building within Azure Cloud. The tools used are Docker, Airflow, Python, BCP, and SSMS. The data is from the [NPPES NPI registry](https://npiregistry.cms.hhs.gov/search).
 
 # Why
-The NPI registry is a great data source for healthcare providers nation wide. Unfortunately the data is bulky and may be difficult to leverage. The API can only return 1200 records as of this writing. I have a long term goal of making this data more widely available.
+The NPI registry is a great data source for healthcare providers nation wide. Unfortunately the data is bulky (330 columns) and may be difficult to leverage. The API can only return 1200 records as of this writing. I have a long term goal of making this data more widely available.
 In addition to making the data more widely available, I am motivated to 'clean' this data source. Address information within the data can be poor. Running the address information through an address service to create a corrected address would go a long way to track providers over time, and leverage the location data provided in the data set. 
 
 # Architecture
