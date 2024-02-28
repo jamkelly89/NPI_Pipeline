@@ -11,7 +11,7 @@ In addition to making the data more widely available, I am motivated to 'clean' 
 
 # What I Learned
 * Setting up various Azure services not limited to blob storage, SQL databases, and options for how to host Airflow (as an application vs 'locally' on a virtual machine).
-  * Blob storage service was very expensive in comparison to SQL srever and the VM. Uploading the .csv to blob also took forever.
+  * Blob storage service was very expensive in comparison to the SQL server and the VM. Uploading the .csv to blob also took a long time.
 * [Docker](https://docs.docker.com/get-started/). I used docker to [run Airflow with the Local executor](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
 * Bash & how to practice with WSL locally before moving to cloud.
 * BCP & bulk upload into SQL Server.
