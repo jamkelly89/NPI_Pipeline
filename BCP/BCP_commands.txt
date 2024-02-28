@@ -1,0 +1,5 @@
+--Local Format file creation. This will later be edited to account for quotes. Command can also be run on a SQL server db on Azure
+bcp NPIRAWTABLE format nul -f FORMATFILENAME.fmt -S DESKTOP-AVBLMP8\SQLEXPRESS -U USERNAME -P PASSWORD -c -t 
+
+--Load Data locally the -F 2 argument removes the headers. Command can also be run on a SQL server db on Azure
+bcp master.dbo.npidatashort in c:/Users/Jim/GITHOME/nppes_db_build/ziplanding/npidatatxt_pfile.txt -S DESKTOP-AVBLMP8\SQLEXPRESS -U USERNAME -P PASSWORD -f c:/Users/Jim/npi_shortnoquote.fmt -F 2
