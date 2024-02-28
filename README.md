@@ -11,9 +11,11 @@ In addition to making the data more widely available, I am motivated to 'clean' 
 
 # What I Learned
 * Setting up various Azure services not limited to blob storage, SQL databases, and options for how to host Airflow (as an application vs 'locally' on a virtual machine).
+** Blob storage service was very expensive in comparison to SQL srever and the VM. Uploading the .csv to blob also took forever.
 * [Docker](https://docs.docker.com/get-started/). I used docker to [run Airflow with the Local executor](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
 * Bash & how to practice with WSL locally before moving to cloud.
 * BCP & bulk upload into SQL Server.
+
 
 # What's Next?
 I would really like the information to be available with more filters so you don't have to download the 9gb .csv file. Being able to pull the information on a state level would be great. Learning how to host the information and develop API's would be a great challenge. 
