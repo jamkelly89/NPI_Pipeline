@@ -21,7 +21,7 @@ I would really like the information to be available with more filters so you don
 
 # Learning Resources
 * Many many thanks to [Using the Bulk-Load Tools in SQL Server blog](https://www.sommarskog.se/bulkload.html)  for helping with BCP. BCP ended up being one of the more tedious and time consuming challenges of the project.
-* One of the many ways to setup Airflow using Docker on WSL (Install and Run Apache Airflow Using Docker in Windows 11)[https://www.youtube.com/watch?v=Sva8rDtlWi4&list=PLllr2ahe8P0qbHJteyB2vJBgKfXkpBSb_&index=2&ab_channel=Philodiscite]
+* One of the many ways to setup Airflow using Docker on WSL [Install and Run Apache Airflow Using Docker in Windows 11](https://www.youtube.com/watch?v=Sva8rDtlWi4&list=PLllr2ahe8P0qbHJteyB2vJBgKfXkpBSb_&index=2&ab_channel=Philodiscite)
 
 # Data Sources
 https://npiregistry.cms.hhs.gov/search
