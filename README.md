@@ -21,6 +21,8 @@ In addition to making the data more widely available, I am motivated to 'clean' 
 # What's Next?
 I would really like the information to be available with more filters so you don't have to download the 9gb .csv file. Being able to pull the information on a state level would be great. Learning how to host the information and develop API's would be a great challenge. 
 
+On a smaller scale I need to move from the staging table to something in production. I need indicies, keys, a load date, and preferrably the filename in the table. I also would like to fix the dates from VARCHAR to date. The dates in the raw data gave SSMS trouble during the BCP load. 
+
 
 # Learning Resources
 * Many many thanks to [Using the Bulk-Load Tools in SQL Server blog](https://www.sommarskog.se/bulkload.html)  for helping with BCP. BCP ended up being one of the more tedious and time consuming challenges of the project. [This](https://www.sqlservercentral.com/articles/skipping-columns-other-tricks-using-bcp-format-files-sql-spackle-1) contains much of the same info in less detail but is easier to read
