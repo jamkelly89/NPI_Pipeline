@@ -20,7 +20,7 @@ The NPI registry is a great data source for healthcare providers nation wide. Un
 
 
 # What's Next?
-I would really like the information to be available with more filters so you don't have to download the 9gb .csv file. Being able to pull the information on a state level would be great. Learning how to host the information and develop API's would be a great challenge. 
+I would really like the information to be available with more filters so you don't have to download the 9gb .csv file. Being able to pull the information on a state level would be great. Learning how to host the information and develop an API would be a great challenge. 
 
 On a smaller scale I need to move from the staging table to something in production. I need indicies, keys, a load date, and preferrably the filename in the table. I also would like to fix the dates from VARCHAR to date. The dates in the raw data gave SSMS trouble during the BCP load. 
 
