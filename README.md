@@ -6,6 +6,7 @@ The NPI registry is a great data source for healthcare providers nation wide. Un
 In addition to making the data more widely available, I am motivated to 'clean' this data source. Address information within the data can be poor. Running the address information through an address service to create a corrected address would go a long way to track providers over time, and leverage the location data provided in the data set. 
 
 # Architecture
+![NPI_dataflow_image](https://github.com/jamkelly89/NPI_Pipeline/assets/54514122/bf16b8af-2026-41c0-a8f7-5b8b4bbfde62)
 
 
 
