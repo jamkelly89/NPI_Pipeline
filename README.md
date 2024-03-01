@@ -26,7 +26,7 @@ More within my existing skillset, I need to move from the staging table to somet
 
 
 # Learning Resources
-* Many many thanks to [Using the Bulk-Load Tools in SQL Server blog](https://www.sommarskog.se/bulkload.html)  for helping with BCP. BCP ended up being one of the more tedious and time consuming challenges of the project. [This](https://www.sqlservercentral.com/articles/skipping-columns-other-tricks-using-bcp-format-files-sql-spackle-1) contains much of the same info in less detail but is easier to read
+* Many many thanks to [Using the Bulk-Load Tools in SQL Server blog](https://www.sommarskog.se/bulkload.html)  for helping with BCP. BCP ended up being one of the more tedious and time consuming challenges of the project. [This](https://www.sqlservercentral.com/articles/skipping-columns-other-tricks-using-bcp-format-files-sql-spackle-1) contains much of the same info in less detail but I find it easier to read
 * One of the many ways to setup Airflow using Docker on WSL [Install and Run Apache Airflow Using Docker in Windows 11](https://www.youtube.com/watch?v=Sva8rDtlWi4&list=PLllr2ahe8P0qbHJteyB2vJBgKfXkpBSb_&index=2&ab_channel=Philodiscite)
 * [Excalidraw](https://excalidraw.com/) for the image 
 
