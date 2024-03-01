@@ -12,17 +12,17 @@ The NPI registry is a great data source for healthcare providers nation wide. Un
 
 
 # What I Learned
-* Setting up various Azure services not limited to blob storage, SQL databases, and options for how to host Airflow (as an application vs 'locally' on a virtual machine).
-  * Blob storage service was very expensive in comparison to the SQL server and the VM. Uploading the .csv to blob also took a long time.
+* Setting up various Azure services not limited to SQL databases, virtual machines, blob storage and researching the options for how to host Airflow (as an application vs 'locally' on a virtual machine).
+  * Blob storage service was very expensive in comparison to the SQL server and the VM. Uploading the .csv to blob also took a long time and was ultimately replaced by the BCP.
 * [Docker](https://docs.docker.com/get-started/). I used docker to [run Airflow with the Local executor](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
 * Bash & how to practice with WSL locally before moving to cloud.
 * BCP & bulk upload into SQL Server. This is a very efficient load method but the format file was very tedious to create.
 
 
 # What's Next?
-I would really like the information to be available with more filters so you don't have to download the 9gb .csv file. Being able to pull the information on a state level would be great. Learning how to host the information and develop an API would be a great challenge. 
+I would really like the information to be available with more filters so you don't have to download the 9 GB .csv file. Cutting the columns down from 330 to 167 is a good first step. Learning how to host the information and develop an API would be a great learning opportunity. 
 
-On a smaller scale I need to move from the staging table to something in production. I need indicies, keys, a load date, and preferrably the filename in the table. I also would like to fix the dates from VARCHAR to date. The dates in the raw data gave SSMS trouble during the BCP load. 
+More within my existing skillset, I need to move from the staging table to something closer to a production ready table or view. I need indicies, keys, a load date, and preferrably the filename in the table. I also would like to fix the dates from VARCHAR to date. The dates in the raw data gave SSMS trouble during the BCP load. 
 
 
 # Learning Resources
